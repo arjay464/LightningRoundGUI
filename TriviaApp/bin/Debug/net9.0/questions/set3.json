@@ -1,0 +1,14 @@
+{
+  "Questions": [
+    {"QuestionText": "This tall lawyer from Illinois guided the nation through its Civil War and issued the Emancipation Proclamation.", "Answer": "Abraham Lincoln"},
+    {"QuestionText": "He led the Continental Army to victory, chopped down the cherry tree… or so the legend says.", "Answer": "George Washington"},
+    {"QuestionText": "Elected four times, he led the U.S. through the Great Depression and most of World War II with his New Deal policies.", "Answer": "Franklin D. Roosevelt"},
+    {"QuestionText": "He penned the Declaration of Independence and loved a good Monticello sunset.", "Answer": "Thomas Jefferson"},
+    {"QuestionText": "This youngest elected president faced the Cuban Missile Crisis and famously challenged Americans to “ask not what your country can do for you.”", "Answer": "John F. Kennedy"},
+    {"QuestionText": "Before leading the U.S., he commanded Allied forces in Europe during World War II and warned of the “military-industrial complex.", "Answer": "Dwight D. Eisenhower"},
+    {"QuestionText": "He signed the Civil Rights Act into law and escalated U.S. involvement in the Vietnam War.", "Answer": "Lyndon B. Johnson"},
+    {"QuestionText": "He defended British soldiers after the Boston Massacre, helped draft the Declaration of Independence, and became the second U.S. president.", "Answer": "John Adams"},
+    {"QuestionText": "This former peanut farmer from Georgia brokered the Camp David Accords and later won a Nobel Peace Prize.", "Answer": "Jimmy Carter"},
+    {"QuestionText": "He led the U.S. during the Spanish-American War and was assassinated early into his second term. ", "Answer": "William McKinley"}
+  ]
+}

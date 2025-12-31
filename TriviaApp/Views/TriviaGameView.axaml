@@ -1,0 +1,60 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:TriviaApp.ViewModels"
+             x:Class="TriviaApp.Views.TriviaGameView"
+             x:DataType="vm:TriviaGameViewModel"
+             Focusable="True">
+
+    <Panel>
+
+        <Image Source="/Assets/background.png" 
+               Stretch="UniformToFill"/>
+    
+        <Grid Margin="40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <!-- Header -->
+            <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Spacing="20">
+                <TextBlock Text="{Binding SetNumber, StringFormat='Set {0}'}" FontSize="24" FontWeight="Bold"/>
+                <TextBlock Text="{Binding QuestionNumber, StringFormat='Question {0}'}" FontSize="24"/>
+                <TextBlock Text="{Binding TotalQuestions, StringFormat='of {0}'}" FontSize="24"/>
+                <TextBlock Text="{Binding CorrectCount, StringFormat='Correct: {0}'}" FontSize="24" Foreground="Green" FontWeight="Bold" Margin="20,0,0,0"/>
+                <TextBlock Text="{Binding TimeDisplay, StringFormat='Time: {0}'}" 
+                        FontSize="24" 
+                        Foreground="Red" 
+                        FontWeight="Bold"
+                        Margin="20,0,0,0"/>
+            </StackPanel>
+            
+            <!-- Question/Answer Display -->
+            <Border Grid.Row="1" 
+                    CornerRadius="10"
+                    Padding="40"
+                    Margin="0,40,0,40"
+                    Background="#BBFFFFFF">
+                <StackPanel VerticalAlignment="Center" Spacing="30">
+                    <TextBlock Text="{Binding CurrentQuestion}" 
+                            FontSize="32" 
+                            FontWeight="Bold"
+                            Foreground="Black"
+                            TextWrapping="Wrap"
+                            HorizontalAlignment="Center"
+                            TextAlignment="Center"/>
+                    
+                    <TextBlock Text="{Binding CurrentAnswer}" 
+                            FontSize="28" 
+                            TextWrapping="Wrap"
+                            HorizontalAlignment="Center"
+                            TextAlignment="Center"
+                            Foreground="Green"
+                            FontWeight="Bold"
+                            IsVisible="{Binding IsRevealed}"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Panel>
+</UserControl>

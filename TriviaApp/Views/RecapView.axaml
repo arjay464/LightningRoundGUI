@@ -1,0 +1,72 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:TriviaApp.ViewModels"
+             x:Class="TriviaApp.Views.RecapView"
+             x:DataType="vm:RecapViewModel"
+             Focusable="True">
+    <Panel>
+        <!-- Background Image -->
+        <Image Source="/Assets/background.png" 
+               Stretch="UniformToFill"/>
+    
+        <Grid Margin="40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <!-- Header with Score -->
+            <StackPanel Grid.Row="0" Spacing="10" Margin="0,0,0,30">
+                <TextBlock Text="{Binding SetNumber, StringFormat='Set {0} - Recap'}" 
+                        FontSize="32" 
+                        FontWeight="Bold"
+                        HorizontalAlignment="Center"/>
+                <TextBlock Text="{Binding Score, StringFormat='Score: {0}'}" 
+                        FontSize="48" 
+                        FontWeight="Bold"
+                        HorizontalAlignment="Center"
+                        Foreground="Green"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="5">
+                    <TextBlock Text="{Binding CorrectCount}" FontSize="20"/>
+                    <TextBlock Text="/" FontSize="20"/>
+                    <TextBlock Text="{Binding TotalQuestions}" FontSize="20"/>
+                    <TextBlock Text="Correct" FontSize="20"/>
+                </StackPanel>
+            </StackPanel>
+            
+            <!-- Questions List -->
+            <ScrollViewer Grid.Row="1">
+                <ItemsControl ItemsSource="{Binding Questions}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border CornerRadius="5"
+                                    Padding="20"
+                                    Margin="0,0,0,15"
+                                    Background="#BBFFFFFF">
+                                    <StackPanel Spacing="10">
+                                        <StackPanel Orientation="Horizontal" Spacing="10">
+                                            <TextBlock Text="Q:" FontSize="28" FontWeight="Bold" Foreground="Black"/>
+                                            <TextBlock Text="{Binding QuestionText}" 
+                                                    FontSize="28"
+                                                    FontWeight="Bold"
+                                                    Foreground="Black"
+                                                    TextWrapping="Wrap"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal" Spacing="10">
+                                            <TextBlock Text="A:" FontSize="24" FontWeight="Bold" Foreground="Green"/>
+                                            <TextBlock Text="{Binding Answer}" 
+                                                    FontSize="24" 
+                                                    FontWeight="Bold"
+                                                    Foreground="Green"
+                                                    TextWrapping="Wrap"/>
+                                        </StackPanel>
+                                        </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Grid>
+    </Panel>
+</UserControl>

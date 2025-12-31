@@ -1,0 +1,14 @@
+{
+  "Questions": [
+    {"QuestionText": "This second-lightest element was first detected in the Sun before it was found on Earth.", "Answer": "Helium"},
+    {"QuestionText": "This reddish metal is highly conductive, and therefore used frequently in electrical wiring", "Answer": "Copper"},
+    {"QuestionText": "This lightweight metal, widely used in aircraft and kitchen foil, is the most abundant metal in the Earth’s crust.", "Answer": "Aluminum"},
+    {"QuestionText": "This alkaline earth metal is essential for strong bones and teeth, and its ions play a key role in muscle contraction.", "Answer": "Calcium"},
+    {"QuestionText": "This soft, highly reactive metal is a key component of table salt and reacts violently with water.", "Answer": "Sodium"},
+    {"QuestionText": "This metalloid is a major component of sand and computer chips, and is essential in the semiconductor industry.", "Answer": "Silicon"},
+    {"QuestionText": "This rare, highly radioactive element was discovered by Marie Curie and is named after her homeland.", "Answer": "Polonium"},
+    {"QuestionText": "This metal, known for having the highest melting point of all elements, is commonly used in light bulb filaments and cutting tools.", "Answer": "Tungsten"},
+    {"QuestionText": "This halogen appears as a shiny purple-black solid and is essential for thyroid hormone production.", "Answer": "Iodine"},
+    {"QuestionText": "This heavy alkaline earth metal is used in fireworks for green colors and in medical imaging of the digestive system.", "Answer": "Barium"}
+  ]
+}

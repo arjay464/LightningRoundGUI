@@ -1,0 +1,14 @@
+{
+  "Questions": [
+    {"QuestionText": "The iconic Japanese volcano located near Tokyo and known for its symmetrical cone shape.", "Answer": "Mt. Fuji"},
+    {"QuestionText": "The peak first summited by Sir Edmund Hillary and Tenzing Norgay in 1953, located on the Nepal–China border.", "Answer": "Mt. Everest"},
+    {"QuestionText": "The highest mountain in Africa, located in northeastern Tanzania near the border with Kenya.", "Answer": "Mt. Kilimanjaro"},
+    {"QuestionText": "One of the shield volcanoes on Hawaii’s Big Island, holding the record as the largest volcano on Earth.", "Answer": "Mauna Loa"},
+    {"QuestionText": "The mountain in Alaska formerly known as Mount McKinley, standing over 20,000 feet tall.", "Answer": "Denali"},
+    {"QuestionText": "The active stratovolcano in Washington state’s Cascade Range that experienced a catastrophic eruption in 1980.", "Answer": "Mt. Saint Helens"},
+    {"QuestionText": "The active volcano on the east coast of Sicily, Italy, near the city of Catania, known for its frequent lava flows.", "Answer": "Mt. Etna"},
+    {"QuestionText": "The iconic pyramidal peak in the Pennine Alps, near Zermatt, Switzerland.", "Answer": "The Matterhorn"},
+    {"QuestionText": "The second-highest mountain in the world, located on the China–Pakistan border.", "Answer": "K2"},
+    {"QuestionText": "The highest mountain in the Andes, located in western Argentina near the Chilean border.", "Answer": "Aconcagua"}
+  ]
+}

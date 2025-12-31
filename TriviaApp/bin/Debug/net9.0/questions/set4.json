@@ -1,0 +1,14 @@
+{
+  "Questions": [
+    {"QuestionText": "This country, north of the Mediterranean, is home to Milan’s fashion scene.", "Answer": "Italy"},
+    {"QuestionText": "Much of this low-lying country north of Belgium sits below sea level, protected by canals.", "Answer": "Netherlands"},
+    {"QuestionText": "Known for fjords carved by glaciers, this country lies north of Denmark.", "Answer": "Norway"},
+    {"QuestionText": "This Atlantic-facing country on the western part of the Iberian Peninsula was once a major seafaring power.", "Answer": "Portugal"},
+    {"QuestionText": "This Balkan country on the Adriatic lies between Montenegro and Greece and remained largely isolated during the Cold War.", "Answer": "Albania"},
+    {"QuestionText": "This Central European country has historic cities like Kraków and Gdańsk.", "Answer": "Poland"},
+    {"QuestionText": "This country hosts the Geneva conventions and is home to the Large Hadron Collider. ", "Answer": "Switzerland"},
+    {"QuestionText": "This Balkan nation was formerly in the Soviet sphere of influence and borders the Black Sea, lying directly north of Greece.", "Answer": "Bulgaria"},
+    {"QuestionText": "This Baltic nation has its capital at Tallinn and is more than 50% forested.", "Answer": "Estonia"},
+    {"QuestionText": "This small country sits between Italy and Croatia, with some Adriatic coastline. ", "Answer": "Slovenia"}
+  ]
+}

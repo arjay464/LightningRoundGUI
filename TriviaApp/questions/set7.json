@@ -1,0 +1,14 @@
+{
+  "Questions": [
+    {"QuestionText": "He co-invented calculus, formulated the laws of motion and universal gravitation, and wrote Principia Mathematica.", "Answer": "Isaac Newton"},
+    {"QuestionText": "This ancient Greek thinker is best known for a theorem relating the sides of a right triangle.", "Answer": "Pythagoras"},
+    {"QuestionText": "This theoretical physicist revolutionized our understanding of space, time, and energy with his theories of relativity.", "Answer": "Albert Einstein"},
+    {"QuestionText": "This ancient Greek mathematician and inventor famously exclaimed “Eureka!” and legends say he lit ships on fire with a giant mirror during the Siege of Syracuse.", "Answer": "Archimedes"},
+    {"QuestionText": "This British mathematician and logician is considered the father of computer science and formalized the concept of algorithms with his famous 'machine.'", "Answer": "Alan Turing"},
+    {"QuestionText": "This Italian mathematician introduced a sequence in which each number is the sum of the two preceding ones, now famous in nature and art.", "Answer": "Fibonacci"},
+    {"QuestionText": "Known as the 'Prince of Mathematicians', he introduced normal distributions, and first formalized the least squares method of estimating parameters.", "Answer": "Carl Friedrich Gauss"},
+    {"QuestionText": "Often called the 'Father of Geometry' he wrote Elements, and an efficient algorithm for finding Greatest Common Divisors.", "Answer": "Euclid"},
+    {"QuestionText": "This Swiss mathematician introduced modern notation (f(x), e, i, π) and proved the Seven Bridges of Königsberg unsolvable.", "Answer": "Leonhard Euler"},
+    {"QuestionText": "This French mathematician, known for his contributions to probability theory and hydraulics, also lent his name to a famous triangular array of numbers used in combinatorics.", "Answer": "Blaise Pascal"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "Questions": [
+    {"QuestionText": "It’s known for vibrant fall foliage and being a symbol of Canada.", "Answer": "Maple"},
+    {"QuestionText": "This tree is known for its tall, unbranched trunk and large, fan-like leaves. They’re planted in rows to farm oil in Southeast Asia.", "Answer": "Palm"},
+    {"QuestionText": "This coastal tree thrives in salty water, often developing exposed roots that help stabilize shorelines and provide habitats for marine life.", "Answer": "Mangrove"},
+    {"QuestionText": "Known for its gracefully drooping branches and often found near water, this tree’s flexible twigs have been used for basket weaving for centuries.", "Answer": "Willow"},
+    {"QuestionText": "Known for its striking white bark that peels in thin layers, this tree is common in northern forests.", "Answer": "Birch"},
+    {"QuestionText": "This tree is recognizable by its flat-topped canopy and small, feathery leaves, and is famous for surviving harsh, dry climates.", "Answer": "Acacia"},
+    {"QuestionText": "Often found in the American South, this tee is known for its large, fragrant white flowers and glossy leaves.", "Answer": "Magnolia"},
+    {"QuestionText": "A part of the rose family, the Sakura tree is one of its varieties, known for stunning, short-lived spring flowers. ", "Answer": "Cherry"},
+    {"QuestionText": "Native to the Mediterranean, this tree is prized for its small, oval fruit and for its long lifespan.", "Answer": "Olive"},
+    {"QuestionText": "Unlike most conifers, this tree is deciduous, shedding its needles in autumn. There are Siberian, European and Subalpine varieties. ", "Answer": "Larch"}
+  ]
+}

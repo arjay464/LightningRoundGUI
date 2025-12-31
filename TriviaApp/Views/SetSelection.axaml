@@ -1,0 +1,58 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:TriviaApp.ViewModels"
+             x:Class="TriviaApp.Views.SetSelectionView"
+             x:DataType="vm:SetSelectionViewModel">
+    <Panel>
+        <Image Source="/Assets/background.png" 
+               Stretch="UniformToFill"/>
+    
+        <Grid Margin="60">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <TextBlock Grid.Row="0"
+                    Text="Select a Question Set" 
+                    FontSize="36" 
+                    FontWeight="Bold"
+                    HorizontalAlignment="Center"
+                    Margin="0,20,0,60"/>
+            
+            <ItemsControl Grid.Row="1" 
+                        ItemsSource="{Binding AvailableSets}"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="2" Rows="4"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate DataType="vm:SetInfo">
+                        <Button Click="OnSetButtonClick"
+                                Margin="20"
+                                Width="250"
+                                Height="100"
+                                FontSize="24"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                HorizontalContentAlignment="Center"
+                                VerticalContentAlignment="Center">
+                            <StackPanel>
+                                <TextBlock Text="{Binding Number, StringFormat='Set {0}'}" 
+                                        FontSize="18" 
+                                        HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding Name}" 
+                                        FontSize="24" 
+                                        FontWeight="Bold"
+                                        HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Grid>
+    </Panel>
+</UserControl>
